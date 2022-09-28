@@ -1,0 +1,8 @@
+section {
+  background-image: url(../img/aboutUs.jpeg);
+  height: 1220px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,142 @@
+/* Main styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  font-size: 16px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 10px;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #333;
+  padding: 20px 20px 0 20px;
+}
+
+.navbar a {
+  color: white;
+  padding-left: 0.5em;
+}
+
+.logo {
+  float: left;
+}
+
+.navbar ul {
+  float: right;
+}
+
+.navbar ul li {
+  display: inline;
+  padding-right: 0.5em;
+}
+
+/* FirstContainer styles */
+.firstContainer {
+  background-image: url(../img/firstContainer.jpeg);
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.firstContainerContent {
+  color:#333;
+  text-align: center;
+  padding: 170px 60px;
+}
+
+.firstContainerContent h1 {
+  font-size: 45px;
+  padding: 30px;
+  line-height: 1.2em;
+  text-transform: capitalize;
+}
+
+.firstContainerContent p {
+  padding: 30px;
+}
+
+/* SecondContainer styles */
+.secondContainer {
+  height: 400px;
+}
+
+.secondContainer aside {
+  background: url(../img/secondContainerAside.jpeg) no-repeat center/cover;
+  width: 50%;
+  height: 100%;
+}
+
+.secondContainer article {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  padding: 120px 40px 100px 40px; 
+}
+
+/* ThirdContainer styles */
+.thirdContainer article {
+  text-align: center;
+  width: 33%;
+  height: 220px;
+  padding: 40px;
+}
+
+.freeMeals {
+  background-color: #f7c08a;
+}
+  
+/* Helpers class styles */
+.clear {
+  clear: both;
+}
+
+.firstContainerBtn {
+  background-color: #333;
+  padding: 10px 15px;
+  color: white
+}
+
+.secondContainerBtn {
+  background-color: white;
+  padding: 10px 15px;
+  color: #333;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white; 
+}
+
